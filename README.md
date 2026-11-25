@@ -24,12 +24,36 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1
 shell.exe -restart
 ```
 
+## Önizleme
+
+```text
+Aç
+Klasöre çıkart          <-- 2. sıra (dosya-adi\ içine doğrudan çıkartır)
+...
+```
+
 ## Dosyalar
 
 - `extract-zip.nss` — Nilesoft Shell menü tanımı
 - `install.ps1` — Nilesoft Shell ve 7-Zip yolunu otomatik bulup kuran script
 - `README.md` — Kullanım dokümanı
 - `LICENSE` — MIT lisansı
+
+## Eski Menü Tarzına Dönüş (Windows 11 Klasik Sağ Tık Menüsü)
+
+Windows 11'de "Daha fazla seçenek göster" alt menüsü olmadan klasik sağ tık menü tarzını açmak için:
+
+```cmd
+reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+taskkill /f /im explorer.exe & start explorer.exe
+```
+
+Windows 11 varsayılan modern menüsüne geri dönmek için:
+
+```cmd
+reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+taskkill /f /im explorer.exe & start explorer.exe
+```
 
 ## Notlar
 

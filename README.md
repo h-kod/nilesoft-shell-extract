@@ -1,6 +1,6 @@
-# Nilesoft Shell — ZIP Klasöre Çıkart
+# Nilesoft Shell — Arşiv Klasöre Çıkart
 
-Windows sağ tık menüsünde `.zip` dosyaları için **Aç** seçeneğinin hemen altına (2. sıraya) **Klasöre çıkart** komutu ekler. Arşivi aynı dizinde kendi adıyla bir klasöre çıkarır (`dosya.zip` → `dosya\`).
+Windows sağ tık menüsünde sıkıştırılmış/arşiv dosyaları (`.zip`, `.rar`, `.7z`, `.tar`, `.gz`, `.bz2`, `.xz`, `.zst`, `.iso`, `.cab` vb.) için **Aç** seçeneğinin hemen altına (2. sıraya) **Klasöre çıkart** komutu ekler. Arşivi aynı dizinde kendi adıyla bir klasöre çıkarır (`dosya.rar` → `dosya\`).
 
 ## Gereksinimler
 

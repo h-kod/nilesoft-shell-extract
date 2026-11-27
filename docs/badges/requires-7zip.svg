@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="20" role="img" aria-label="requires: 7-Zip">
+  <title>requires: 7-Zip</title>
+  <linearGradient id="gr" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <clipPath id="cr"><rect width="112" height="20" rx="3" fill="#fff"/></clipPath>
+  <g clip-path="url(#cr)">
+    <rect width="62" height="20" fill="#3c4450"/>
+    <rect x="62" width="50" height="20" fill="#0b5cff"/>
+    <rect width="112" height="20" fill="url(#gr)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <text x="31" y="15" fill="#010101" fill-opacity=".3">requires</text>
+    <text x="31" y="14">requires</text>
+    <text x="87" y="15" fill="#010101" fill-opacity=".3">7-Zip</text>
+    <text x="87" y="14">7-Zip</text>
+  </g>
+</svg>

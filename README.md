@@ -2,11 +2,10 @@
 
 **English** · [Türkçe](#türkçe)
 
-![Platform: Windows 10 / 11](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D4?logo=windows11&logoColor=white)
-![Requires 7-Zip](https://img.shields.io/badge/requires-7--Zip-0b5cff)
-![License: MIT](https://img.shields.io/github/license/h-kod/nilesoft-shell-extract)
-![Stars](https://img.shields.io/github/stars/h-kod/nilesoft-shell-extract)
-![Last commit](https://img.shields.io/github/last-commit/h-kod/nilesoft-shell-extract)
+![Platform: Windows 10 | 11](docs/badges/platform.svg)
+![Requires 7-Zip](docs/badges/requires-7zip.svg)
+![License: MIT](docs/badges/license.svg)
+![Formats: 40+ archives](docs/badges/formats.svg)
 
 Adds an **Extract to folder** command to the Windows right-click menu for compressed/archive files (`.zip`, `.rar`, `.7z`, `.tar`, `.gz`, `.bz2`, `.xz`, `.zst`, `.iso`, `.cab` and 30+ more). It appears directly under **Open** (2nd position) and extracts the archive into a folder named after the file, in the same directory (`file.rar` → `file\`).
 

@@ -2,9 +2,19 @@
 
 **English** · [Türkçe](#türkçe)
 
+![Platform: Windows 10 / 11](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D4?logo=windows11&logoColor=white)
+![Requires 7-Zip](https://img.shields.io/badge/requires-7--Zip-0b5cff)
+![License: MIT](https://img.shields.io/github/license/h-kod/nilesoft-shell-extract)
+![Stars](https://img.shields.io/github/stars/h-kod/nilesoft-shell-extract)
+![Last commit](https://img.shields.io/github/last-commit/h-kod/nilesoft-shell-extract)
+
 Adds an **Extract to folder** command to the Windows right-click menu for compressed/archive files (`.zip`, `.rar`, `.7z`, `.tar`, `.gz`, `.bz2`, `.xz`, `.zst`, `.iso`, `.cab` and 30+ more). It appears directly under **Open** (2nd position) and extracts the archive into a folder named after the file, in the same directory (`file.rar` → `file\`).
 
 Powered by [Nilesoft Shell](https://nilesoft.org/) + [7-Zip](https://www.7-zip.org/) — no extra runtime, no background service, just one config snippet.
+
+![Context menu: "Extract to folder" sits directly under Open](docs/context-menu.png)
+
+![Demo: right-click an archive → Extract to folder → the folder appears](docs/demo.gif)
 
 ## Requirements
 
@@ -29,6 +39,10 @@ shell.exe -restart
 ```
 
 ## Preview
+
+![Before and after: assets.zip becomes assets\ in the same folder](docs/before-after.png)
+
+The item is always the **2nd entry** in the menu, right under **Open**:
 
 ```text
 Open
